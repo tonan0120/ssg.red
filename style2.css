@@ -1,0 +1,72 @@
+body {color:black;
+			font-size:16px;}
+h2{color:	#404040;
+font-family: Georgia; 
+margin:30px 0 20px 0;
+}
+a{color:black;
+	margin:10px 25px 10px 10px;
+	font-family:"Times New Roman",Georgia,Serif;	
+
+	}
+a:link {text-decoration:none;}
+a:visited {text-decoration:none;}
+a:hover {text-decoration:underline;color:blue; }
+a:active {text-decoration:underline;}
+a.title{color:#4682B4;
+			/*font-weight:900;*/
+			font-weight:bold;
+}
+div.baidu{margin:0 auto;
+				width:800px;
+				text-align:center; 
+}
+input.shuru{width: 380px;
+height: 46px;
+padding: 0px 8px 0px 8px;
+font-size:18px;
+}
+input.anjian{width: 100px;
+height: 49px;
+font-size:17px;
+}
+div.wangzhi{
+					margin:25px;
+					border-style: solid solid solid solid;
+					border-width: 1px;
+					border-color: #C9C9C9	;			
+					padding: 15px 10px 15px 10px;
+					
+					}
+div.kuang{margin:0 auto;
+				width:850px;	
+				/*border-width: 1px;
+				border-color: #C9C9C9	;
+				border-style: solid solid solid solid;
+				*/
+}
+div.hang{margin:10px 10px 10px 20px;
+				padding:  10px 2px 5px 2px;
+				border-bottom-style:solid;
+				border-bottom-width: 1px;
+				border-bottom-color: 	#EBEBEB;
+				height:30px;
+}
+div.hang-title{float:left;
+}
+div.hang-content{float:left;
+}
+div{border:1px solid;
+} 
+span.left{
+		float:left;
+		border-style: solid solid solid solid;
+		border-width: 1px;
+		border-color: #C9C9C9;			
+}
+span.right{
+	float:left;
+	border-style: solid solid solid solid;
+	border-width: 3px;
+	border-color: #C9C9C9;			
+}

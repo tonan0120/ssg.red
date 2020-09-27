@@ -1,0 +1,218 @@
+html,body {color:black;
+	/*font-size:18px;*/
+	font-size:1em;
+	font-family:arial,SimSun,helvetica,sans-serif;
+	/*background:#fafafa;*/
+	text-align:center;/*此参数仅对其内部元素生效，不对自己生效*/
+	width: 100%;
+	height: 100%;
+	margin: 0; 
+    padding: 0;
+	}
+h1{
+	font-weight:normal;
+	font-size: 2.2em;
+	margin: 0 auto;
+	padding: 0;
+}
+a:link, a:visited {
+text-decoration: none;
+color:#545454;
+}
+
+form.mform{
+	margin:0 auto;
+	width: 90%;
+	height: 25%;
+	/*border-style: solid;*/
+	border-style: none;
+	border-width: 1px;
+	border-color: #C9C9C9;	
+}
+
+div.baidu{
+	float: center;
+	width: 100%;
+	height: 100%;
+	border-style: none;
+	
+	border-width: 1px;
+	border-color: #C9C9C9;	
+}
+table{
+	/*border-style: solid;*/
+	border-style: none;
+	border-width: 1px;
+	border-color: #C9C9C9;	
+	width:100%;
+	height: 100%;
+}
+table.msearchtable{
+
+}
+tr,td{
+	margin: 0;
+	padding: 0;
+}
+tr{
+	/*border-style: solid;*/
+	
+	width:100%;
+	height: 100%;
+}
+
+tr.mtitle{
+	height: 40px;
+}
+tr.msearchline{
+	height: 35px;
+}
+td.title{
+	/*border-style: solid;*/
+	border-style: none;
+	border-width: 1px;
+	border-color: #C9C9C9;	
+	width:100%;
+	height: 50%;
+	text-align: center;
+	/*position: relative;
+    top: 30%; 偏移*/
+    
+}
+td.mleft{
+	border-style: none;
+	border-width: 2px;
+	border-color: #C9C9C9;	
+	width:70%;
+	height: 100%;
+	text-align: left;
+	
+}
+td.mmiddle{
+	border-style: none;
+	border-width: 2px;
+	border-color: #C9C9C9;	
+	width:2%;
+	text-align:center；
+}
+td.mright{
+	border-style: none;
+	border-width: 3px;
+	border-color: #C9C9C9;	
+	width:28%;
+	height: 100%;
+	text-align:center;
+}
+input.mshuru{
+	width:100%;
+	height: 100%;
+	border-style: solid;
+
+	border-width: 1px;
+	border-color: #6A5ACD;
+	text-align: left;
+	margin: 0;
+	font-size: 1.5em;
+	color: #AAAAAA;
+
+}
+input.msubmit{
+	width:100%;
+	height: 100%; 
+	border-style: solid;
+	border-width: 1px;
+	border-color: #6A5ACD;
+	margin: 0;
+	font-size: 1.5em;
+	color: #FFFFFF;
+	background-color: #5CACEE;
+	-webkit-appearance:none;  /*解决iphone safari上的圆角问题*/
+}
+
+
+div.kuang{
+	margin: 0 auto;
+	width: 90%;
+	/*height: 80%;
+	border-style: solid;*/
+	border-style: none;
+	border-width: 2px;
+	border-color: #C9C9C9;	
+	text-align: center;
+}
+div.list{
+	margin:1.5em,0,1.5em,0;
+	
+	border-style: none;
+
+	border-width: 1px;
+	border-color: #C9C9C9;
+	clear:both;
+}
+div.mline{
+	margin: 0;
+	padding: 0;
+	clear:both;
+}
+ul{
+margin-top: 1em;
+margin-left: 0em;
+padding:0px;
+vertical-align:middle;
+list-style-type:none;
+}
+
+li{
+background: #F5F5F5;
+border-style: solid;
+border-width: 1px;
+border-color: #C9C9C9;
+
+float:left;
+list-style-type: none;
+margin:0.2em 0.2em 0.2em 0em;
+width:23%;
+height: 2.5em;
+text-align: center;
+line-height: 250%;/*设置垂直居中*/
+border-radius:0.2em;
+}
+li.ge1{
+	background: #B0E0E6;
+}
+li.ge2{
+	background:#7FFFD4;
+}
+li.ge3{
+	background:#EBEBEB;
+}
+li.ge4{
+	background:#CD919E;
+}
+li.ge5{
+	background:#7D9EC0;
+}
+li.ge6{
+	background:#CD8C95;
+}
+
+a.addr{
+	font-size: 1em;
+	color: #ADADAD;
+}
+
+div.bottom{
+	margin:2em auto;
+	width: 90%;
+}
+
+@media screen and (max-device-width: 480px) {
+　　#divMain{
+　　　　 float: none;
+　　　　 width:auto;
+　　 }
+　　#divSidebar { 
+　　　　display:none;
+　　 }
+	}
+
